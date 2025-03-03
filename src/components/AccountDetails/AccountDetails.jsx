@@ -19,4 +19,6 @@ const AccountDetails = ({ accountAddress, accountBalance }) => {
   );
 };
 
+
+
 export default AccountDetails;
