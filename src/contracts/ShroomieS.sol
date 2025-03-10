@@ -159,6 +159,7 @@ contract ShroomieS is ERC721 {
         shroomy.price = _newPrice;
         allShroomieS[_tokenId] = shroomy;
     }
+    
 
     function toggleForSale(uint256 _tokenId) public {
         require(msg.sender != address(0));
